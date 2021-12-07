@@ -13,6 +13,7 @@ import {
   Transactions,
   Title,
   TransactionsList,
+  LogoutButton,
 } from './styles';
 import HighlightCard from '../../components/HighlightCard';
 import TransactionCard, {
@@ -74,7 +75,9 @@ const Dashboard: React.FC = () => {
               <UserName>Iago</UserName>
             </User>
           </UserInfo>
-          <Icon name="power" />
+          <LogoutButton onPress={() => {}}>
+            <Icon name="power" />
+          </LogoutButton>
         </UserContainer>
       </Header>
       <HighlightCards>
