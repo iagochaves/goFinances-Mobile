@@ -3,8 +3,11 @@
     "name": "gofinances",
     "slug": "gofinances",
     "version": "1.0.0",
-    "schema": "gofinances",
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "githubUrl": "https://github.com/iagochaves/goFinances-Mobile"
   },
   "name": "gofinances"
 }
